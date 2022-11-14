@@ -153,10 +153,10 @@ body {
 /* tile 5 styles */
 .tile5 {
   padding: 30px;
-  width: 100%;
-  height: 25%;
+  /* width: 100%;
+  height: 25%; */
   /* padding: ; */
-  background-color: green;
+  /* background-color: green;{ */
 }
 
 .tile5-heading {
@@ -195,6 +195,60 @@ body {
   /* background-color: grey; */
   border-radius: 20px;
   text-align: left;
+}
+
+.tile6 {
+  padding: 30px;
+  width: 100%;
+  background-color: #f9fff9;
+}
+
+.tile6-heading {
+  font-size: 30px;
+  text-align: left;
+}
+
+.tile6-text {
+  text-align: left;
+}
+
+.tile6-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.tile7 {
+  padding: 30px;
+  width: 100%;
+  background-color: white;
+  text-align: left;
+}
+.tile7-heading {
+  text-align: left;
+  font-size: 30px;
+}
+
+.tile7-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.tile7-box {
+  /* background-color: grey; */
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.tile7-box-heading {
+  font-weight: 700;
 }
 
 /* broke the footer, but okay for now. */
