@@ -224,6 +224,7 @@ body {
   width: 100%;
   background-color: white;
   text-align: left;
+  align-items: left;
 }
 .tile7-heading {
   text-align: left;
@@ -233,8 +234,8 @@ body {
 .tile7-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  align-items: center;
+  justify-items: left;
+  align-items: left;
 }
 
 .tile7-box {
@@ -251,6 +252,86 @@ body {
   font-weight: 700;
 }
 
+.tile8 {
+  width: 100%;
+  text-align: left;
+  padding: 30px;
+}
+
+.tile8-heading {
+  font-size: 30px;
+}
+
+.tile8-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: left;
+  align-items: left;
+  column-gap: 5px;
+}
+
+.tile8-box {
+  /* background-color: yellow; */
+  width: fit-content;
+  /* padding: 20px; */
+}
+
+.tile9 {
+  text-align: left;
+  padding: 30px;
+  background-color: #f0fcff;
+}
+.tile9-heading {
+  font-size: 30px;
+}
+
+.tile9-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: left;
+  align-items: left;
+  column-gap: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.tile9-box {
+  width: 200px;
+  margin: 10px;
+}
+
+.tile9-box-image {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile10 {
+  text-align: left;
+
+  padding: 30px;
+}
+
+.tile10-heading {
+  text-align: left;
+  font-size: 30px;
+}
+
+.tile10-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: left;
+  align-items: left;
+  column-gap: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.tile10-box {
+}
 /* broke the footer, but okay for now. */
 .page-footer {
   position: fixed;
