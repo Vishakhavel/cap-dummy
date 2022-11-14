@@ -10,7 +10,9 @@ body {
   width: 100%;
   height: 100vh;
   text-align: center;
-  padding-top: 1px;
+  padding-top: 0px;
+  /* background-color: hotpink; */
+  top: 0px;
 }
 
 .banner-image {
@@ -38,7 +40,7 @@ body {
 /* tile2 styles */
 
 .tile2 {
-  background-color: #d3d3d3;
+  background-color: #e2e2e2;
   padding: 30px;
   margin: auto;
 }
@@ -68,6 +70,10 @@ body {
   text-align: left;
 }
 
+.box-text {
+  text-align: left;
+}
+
 .green-text {
   color: green;
 }
@@ -84,8 +90,119 @@ body {
   text-align: left;
   font-size: 50px;
 }
+.tile3-content {
+  text-align: left;
+}
+.tile3-subheading {
+  text-align: left;
+  font-size: 30px;
+}
+
+.tile3-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.tile3-box {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  /* background-color: grey; */
+  border-radius: 20px;
+  text-align: left;
+}
+
+.tile3-text {
+  text-align: left;
+}
+
+.tile4 {
+  padding: 30px;
+  background-color: #f0fcff;
+  width: 100%;
+  height: 25%;
+  /* padding: ; */
+}
+
+.tile4-heading {
+  text-align: left;
+  font-size: 30px;
+}
+
+.tile4-content {
+  text-align: left;
+}
+
+.tile4-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 10px;
+  justify-items: left;
+  align-items: left;
+}
+
+.tile4-box {
+  /* background-color: lightgreen; */
+  width: 100px;
+  height: 100px;
+}
+
+/* tile 5 styles */
+.tile5 {
+  padding: 30px;
+  width: 100%;
+  height: 25%;
+  /* padding: ; */
+  background-color: green;
+}
+
+.tile5-heading {
+  font-size: 30px;
+  text-align: left;
+}
+
+.tile5-text {
+  text-align: left;
+}
+
+.tile-5-heading {
+  text-align: left;
+  font-size: 50px;
+}
+.tile5-content {
+  text-align: left;
+}
+.tile5-subheading {
+  text-align: left;
+  font-size: 30px;
+}
+
+.tile5-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.tile5-box {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  /* background-color: grey; */
+  border-radius: 20px;
+  text-align: left;
+}
 
 /* broke the footer, but okay for now. */
 .page-footer {
   position: fixed;
 }
+
+/* .component-header {
+  font-family: myFirstFont;
+  src: url(../Fonts/Corbel.ttf);
+} */

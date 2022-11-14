@@ -1,0 +1,28 @@
+<div class="tile5-image">
+                  <img src="1x/Asset 68@1.png" alt="" />
+                </div>
+
+                <div class="tile5-heading green-text">Shopify:</div>
+
+                <div class="tile5-text">
+                  Capillary's integration with the Shopify Ecommerce Platform
+                  helps you make the best of both worlds. Easily sync user data
+                  between Shopify and Capillary to upgrade your Ecommerce Portal
+                  into a Loyalty Portal.
+                </div>
+
+
+
+ <div class="tile5-image">
+                  <img src="1x/Asset 69@1.png" alt="" />
+                </div>
+
+                <div class="tile5-heading blue-text">Magento:</div>
+
+                <div class="tile5-text">
+                  Capillary also seamlessly integrates with Magento for a swift
+                  data flow between the two systems. This allows brands to run
+                  omnichannel loyalty, gamify online channels and take their
+                  Ecommerce game to the next level.
+                </div>
+              </div>
