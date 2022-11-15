@@ -7,16 +7,37 @@
 } */
 .main {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   text-align: center;
   padding-top: 0px;
   /* background-color: hotpink; */
   top: 0px;
 }
+
+.banner-heading {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  /* padding: 10px; */
+}
+
+.banner-text {
+  position: absolute;
+  top: 350px;
+  left: 200px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  /* padding: 10px; */
+}
 .banner-image {
   width: 100%;
   height: 60%;
   padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 /* .banner-heading {
   text-align: left;
@@ -88,21 +109,14 @@
   border-radius: 20px;
   text-align: left;
 }
-.tile2-box-2 {
-  width: 300px;
-  height: 300px;
-  margin: 10px;
-  padding: 10px;
-  background-color: white;
-  border-radius: 20px;
-  text-align: left;
-  /* justify-self: center; */
-  /* justify-content: center;
-  align-items: center;
-  margin: auto; */
+.row2-box {
+  width: 200px;
 }
 .box-text {
   text-align: left;
+  /* overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; */
 }
 .green-text {
   color: green;
@@ -349,3 +363,10 @@
   font-family: myFirstFont;
   src: url(../Fonts/Corbel.ttf);
 } */
+
+@media screen and (max-width: 600px) {
+  /* changing the styles when in phone view */
+  .tile2 {
+    align-items: center;
+  }
+}
