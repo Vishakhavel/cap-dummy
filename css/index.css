@@ -7,16 +7,37 @@
 } */
 .main {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   text-align: center;
   padding-top: 0px;
   /* background-color: hotpink; */
   top: 0px;
 }
+
+.banner-heading {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  /* padding: 10px; */
+}
+
+.banner-text {
+  position: absolute;
+  top: 350px;
+  left: 200px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  /* padding: 10px; */
+}
 .banner-image {
   width: 100%;
   height: 60%;
   padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 /* .banner-heading {
   text-align: left;
@@ -50,7 +71,7 @@
 }
 /* tile2 styles */
 .tile2 {
-  background-color: #E2E2E2;
+  background-color: #e2e2e2;
   padding: 30px;
   margin: auto;
 }
@@ -74,12 +95,13 @@
 }
 .box-wrapper-2 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
+  margin-left: 40px;
 }
-.tile2-box-3 {
-  width: 300px;
+.tile2-box {
+  width: 200px;
   height: 300px;
   margin: 10px;
   padding: 10px;
@@ -87,21 +109,14 @@
   border-radius: 20px;
   text-align: left;
 }
-.tile2-box-2 {
-  width: 300px;
-  height: 300px;
-  margin: 10px;
-  padding: 10px;
-  background-color: white;
-  border-radius: 20px;
-  text-align: left;
-  /* justify-self: center; */
-  /* justify-content: center;
-  align-items: center;
-  margin: auto; */
+.row2-box {
+  width: 200px;
 }
 .box-text {
   text-align: left;
+  /* overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; */
 }
 .green-text {
   color: green;
@@ -143,7 +158,7 @@
 }
 .tile4 {
   padding: 30px;
-  background-color: #F0FCFF;
+  background-color: #f0fcff;
   width: 100%;
   /* height: 25%; */
   margin: 20px;
@@ -220,7 +235,7 @@
 .tile6 {
   padding: 30px;
   width: 100%;
-  background-color: #F9FFF9;
+  background-color: #f9fff9;
 }
 .tile6-heading {
   font-size: 30px;
@@ -287,7 +302,7 @@
 .tile9 {
   text-align: left;
   padding: 30px;
-  background-color: #F0FCFF;
+  background-color: #f0fcff;
 }
 .tile9-heading {
   font-size: 30px;
@@ -348,3 +363,10 @@
   font-family: myFirstFont;
   src: url(../Fonts/Corbel.ttf);
 } */
+
+@media screen and (max-width: 600px) {
+  /* changing the styles when in phone view */
+  .tile2 {
+    align-items: center;
+  }
+}
