@@ -1212,10 +1212,7 @@
             Our Approach Towards Integrations
           </div>
 
-          <div class="tile1-line">
-            <!-- line comes here -->
-            <hr align="center" width="10%" />
-          </div>
+          <hr align="center" width="10%" />
 
           <div class="tile2-text">
             Overcome system limitations and integrate seamlessly with Capillary
@@ -1225,8 +1222,72 @@
             experience.
           </div>
 
-          <div class="box-wrapper-2">
-            <div class="tile2-box-2">
+          <div class="container">
+            <div class="row1">
+              <div class="row">
+                <div class="col-sm tile2-box">
+                  <img src="1x/Asset 50@1.png" alt="" />
+                  <div class="box-heading green-text">APIs</div>
+                  <hr width="20%" align="left" />
+                  <div class="box-text">
+                    Seamlessly integrate with any 3rd party system from
+                    Capillary's extensive integration marketplace.
+                  </div>
+                </div>
+                <!-- end of tile1 -->
+                <div class="col-sm tile2-box">
+                  <img src="1x/Asset 50@1.png" alt="" />
+                  <div class="box-heading green-text">APIs</div>
+                  <hr width="20%" align="left" />
+                  <div class="box-text">
+                    Seamlessly integrate with any 3rd party system from
+                    Capillary's extensive integration marketplace.
+                  </div>
+                </div>
+                <!-- end of tile2 -->
+                <div class="col-sm tile2-box">
+                  <img src="1x/Asset 50@1.png" alt="" />
+                  <div class="box-heading green-text">APIs</div>
+                  <hr width="20%" align="left" />
+                  <div class="box-text">
+                    Seamlessly integrate with any 3rd party system from
+                    Capillary's extensive integration marketplace.
+                  </div>
+                </div>
+                <!-- end fo tile3 -->
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row2">
+              <div class="row">
+                <div class="col-sm tile2-box">
+                  <img src="1x/Asset 50@1.png" alt="" />
+                  <div class="box-heading green-text">APIs</div>
+                  <hr width="20%" align="left" />
+                  <div class="box-text">
+                    Seamlessly integrate with any 3rd party system from
+                    Capillary's extensive integration marketplace.
+                  </div>
+                </div>
+                <!-- end of tile1 -->
+                <div class="col-sm tile2-box">
+                  <img src="1x/Asset 50@1.png" alt="" />
+                  <div class="box-heading green-text">APIs</div>
+                  <hr width="20%" align="left" />
+                  <div class="box-text">
+                    Seamlessly integrate with any 3rd party system from
+                    Capillary's extensive integration marketplace.
+                  </div>
+                </div>
+                <!-- end of tile2 -->
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="box-wrapper-2 container">
+            <div class="tile2-box-3">
               <div class="box-image">
                 <img src="1x/Asset 50@1.png" alt="" />
               </div>
@@ -1261,9 +1322,11 @@
                 Integration Framework.
               </div>
             </div>
-          </div>
+          </div> -->
 
-          <div class="box-wrapper">
+          <!-- box wrapper 2 commented out -->
+
+          <!-- <div class="box-wrapper">
             <div class="tile2-box-3">
               <div class="box-image">
                 <img src="1x/Asset 53@1.png" alt="" />
@@ -1287,7 +1350,8 @@
                 through API-driven webhooks.
               </div>
             </div>
-          </div>
+          </div> -->
+          <!-- box wrapper commented out -->
         </div>
       </div>
 
@@ -2289,37 +2353,37 @@
     <script src="https://www.capillarytech.com/js/materialize.js"></script>
     <script>
       $(document).ready(function () {
-        $(".button-collapse").sideNav();
-        $(".dropdown-button").dropdown({
+        $('.button-collapse').sideNav()
+        $('.dropdown-button').dropdown({
           inDuration: 100,
           outDuration: 300,
           constrainWidth: false,
           hover: true,
           gutter: 0,
           belowOrigin: true,
-          alignment: "left",
+          alignment: 'left',
           stopPropagation: false,
-        });
-        $(".tabs").tabs();
-        $(".collapsible").collapsible();
-        $("select#lang-picker").material_select();
-      });
+        })
+        $('.tabs').tabs()
+        $('.collapsible').collapsible()
+        $('select#lang-picker').material_select()
+      })
     </script>
     <script src="https://www.capillarytech.com/js/geotargeting.js"></script>
     <script src="https://www.capillarytech.com/js/slick.min.js"></script>
     <script>
-      $(".autoplay").slick({
+      $('.autoplay').slick({
         infinite: true,
         rows: 1,
         slidesToShow: 6,
         slidesToScroll: 6,
-        centerPadding: "60px",
+        centerPadding: '60px',
         autoplay: false,
         speed: 1000,
         autoplaySpeed: 1,
         dots: false,
         arrows: true,
-        cssEase: "ease-in-out",
+        cssEase: 'ease-in-out',
         mobileFirst: false,
         swipe: true,
         swipeToSlide: false,
@@ -2347,102 +2411,102 @@
             settings: { slidesToShow: 1, slidesToScroll: 1, dots: false },
           },
         ],
-      });
+      })
     </script>
     <script>
-      $(".tabs").tabs();
-      $("#hero-explore").click(function (e) {
-        $("html,body").animate(
-          { scrollTop: $("#home-products-section").offset().top - 40 },
+      $('.tabs').tabs()
+      $('#hero-explore').click(function (e) {
+        $('html,body').animate(
+          { scrollTop: $('#home-products-section').offset().top - 40 },
           800,
-          "easeInCirc"
-        );
-        e.preventDefault();
-        return false;
-      });
-      $("#heroPromoBarCta").click(function (e) {
-        $("html,body").animate(
-          { scrollTop: $("#homePromoBanner").offset().top - 200 },
+          'easeInCirc'
+        )
+        e.preventDefault()
+        return false
+      })
+      $('#heroPromoBarCta').click(function (e) {
+        $('html,body').animate(
+          { scrollTop: $('#homePromoBanner').offset().top - 200 },
           400,
-          "easeInCirc"
-        );
-        e.preventDefault();
-        return false;
-      });
+          'easeInCirc'
+        )
+        e.preventDefault()
+        return false
+      })
     </script>
     <script>
-      var slideIndex1 = 0;
-      var slideIndex2 = 0;
-      showSlides();
+      var slideIndex1 = 0
+      var slideIndex2 = 0
+      showSlides()
       function showSlides() {
-        var i;
-        var slide1 = document.getElementsByClassName("mySlides-1");
-        var slide2 = document.getElementsByClassName("mySlides-2");
-        var slide3 = document.getElementsByClassName("mySlides-3");
-        var slide4 = document.getElementsByClassName("mySlides-4");
-        var slides1 = [slide2, slide1];
-        var slides2 = [slide4, slide3];
+        var i
+        var slide1 = document.getElementsByClassName('mySlides-1')
+        var slide2 = document.getElementsByClassName('mySlides-2')
+        var slide3 = document.getElementsByClassName('mySlides-3')
+        var slide4 = document.getElementsByClassName('mySlides-4')
+        var slides1 = [slide2, slide1]
+        var slides2 = [slide4, slide3]
         for (i = 0; i < slides2.length; i++) {
-          slides2[i][0].style.display = "none";
+          slides2[i][0].style.display = 'none'
         }
         for (i = 0; i < slides1.length; i++) {
-          slides1[i][0].style.display = "none";
+          slides1[i][0].style.display = 'none'
         }
-        slideIndex1++;
-        slideIndex2++;
+        slideIndex1++
+        slideIndex2++
         if (slideIndex1 > slides1.length) {
-          slideIndex1 = 1;
+          slideIndex1 = 1
         }
         if (slideIndex2 > slides2.length) {
-          slideIndex2 = 1;
+          slideIndex2 = 1
         }
-        slides1[slideIndex1 - 1][0].style.display = "block";
-        slides2[slideIndex2 - 1][0].style.display = "block";
-        setTimeout(showSlides, 10000);
+        slides1[slideIndex1 - 1][0].style.display = 'block'
+        slides2[slideIndex2 - 1][0].style.display = 'block'
+        setTimeout(showSlides, 10000)
       }
     </script>
 
     <script type="text/javascript">
-      $(".desktop-slider").slick({ autoplay: true, autoplaySpeed: 10000 });
+      $('.desktop-slider').slick({ autoplay: true, autoplaySpeed: 10000 })
     </script>
     <script type="text/javascript">
-      $(".mobile-slider").slick({ autoplay: true, autoplaySpeed: 10000 });
+      $('.mobile-slider').slick({ autoplay: true, autoplaySpeed: 10000 })
     </script>
 
     <!-- GTM -->
     <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
+      ;(function (w, d, s, l, i) {
+        w[l] = w[l] || []
         w[l].push({
-          "gtm.start": new Date().getTime(),
-          event: "gtm.js",
-        });
+          'gtm.start': new Date().getTime(),
+          event: 'gtm.js',
+        })
         var f = d.getElementsByTagName(s)[0],
           j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-WF4F9W8");
+          dl = l != 'dataLayer' ? '&l=' + l : ''
+        j.async = true
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+        f.parentNode.insertBefore(j, f)
+      })(window, document, 'script', 'dataLayer', 'GTM-WF4F9W8')
     </script>
     <!--HOTJAR-->
     <script>
-      (function (h, o, t, j, a, r) {
+      ;(function (h, o, t, j, a, r) {
         h.hj =
           h.hj ||
           function () {
-            (h.hj.q = h.hj.q || []).push(arguments);
-          };
+            ;(h.hj.q = h.hj.q || []).push(arguments)
+          }
         h._hjSettings = {
           hjid: 1125201,
           hjsv: 6,
-        };
-        a = o.getElementsByTagName("head")[0];
-        r = o.createElement("script");
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+        }
+        a = o.getElementsByTagName('head')[0]
+        r = o.createElement('script')
+        r.async = 1
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv
+        a.appendChild(r)
+      })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=')
     </script>
 
     <div class="hiddendiv common"></div>
@@ -2458,110 +2522,110 @@
     ></div>
     <div style="display: none; visibility: hidden">
       <script type="text/javascript">
-        (function () {
+        ;(function () {
           function b() {
-            !1 === c && ((c = !0), Munchkin.init("005-GYU-207"));
+            !1 === c && ((c = !0), Munchkin.init('005-GYU-207'))
           }
           var c = !1,
-            a = document.createElement("script");
-          a.type = "text/javascript";
-          a.async = !0;
-          a.src = "//munchkin.marketo.net/munchkin.js";
+            a = document.createElement('script')
+          a.type = 'text/javascript'
+          a.async = !0
+          a.src = '//munchkin.marketo.net/munchkin.js'
           a.onreadystatechange = function () {
-            ("complete" != this.readyState && "loaded" != this.readyState) ||
-              b();
-          };
-          a.onload = b;
-          document.getElementsByTagName("head")[0].appendChild(a);
-        })();
+            ;('complete' != this.readyState && 'loaded' != this.readyState) ||
+              b()
+          }
+          a.onload = b
+          document.getElementsByTagName('head')[0].appendChild(a)
+        })()
       </script>
     </div>
     <script type="text/javascript" id="">
       !(function () {
-        var a = (window.driftt = window.drift = window.driftt || []);
+        var a = (window.driftt = window.drift = window.driftt || [])
         if (!a.init) {
           if (a.invoked)
             return void (
               window.console &&
               console.error &&
-              console.error("Drift snippet included twice.")
-            );
-          a.invoked = !0;
+              console.error('Drift snippet included twice.')
+            )
+          a.invoked = !0
           a.methods =
-            "identify config track reset debug show ping page hide off on".split(
-              " "
-            );
+            'identify config track reset debug show ping page hide off on'.split(
+              ' '
+            )
           a.factory = function (c) {
             return function () {
-              var b = Array.prototype.slice.call(arguments);
-              return b.unshift(c), a.push(b), a;
-            };
-          };
+              var b = Array.prototype.slice.call(arguments)
+              return b.unshift(c), a.push(b), a
+            }
+          }
           a.methods.forEach(function (c) {
-            a[c] = a.factory(c);
-          });
+            a[c] = a.factory(c)
+          })
           a.load = function (c) {
             var b = 3e5,
-              d = Math.ceil(new Date() / b) * b;
-            b = document.createElement("script");
-            b.type = "text/javascript";
-            b.async = !0;
-            b.crossorigin = "anonymous";
-            b.src = "https://js.driftt.com/include/" + d + "/" + c + ".js";
-            c = document.getElementsByTagName("script")[0];
-            c.parentNode.insertBefore(b, c);
-          };
+              d = Math.ceil(new Date() / b) * b
+            b = document.createElement('script')
+            b.type = 'text/javascript'
+            b.async = !0
+            b.crossorigin = 'anonymous'
+            b.src = 'https://js.driftt.com/include/' + d + '/' + c + '.js'
+            c = document.getElementsByTagName('script')[0]
+            c.parentNode.insertBefore(b, c)
+          }
         }
-      })();
-      drift.SNIPPET_VERSION = "0.3.1";
-      drift.load("xtszpugbr6ih");
+      })()
+      drift.SNIPPET_VERSION = '0.3.1'
+      drift.load('xtszpugbr6ih')
     </script>
 
     <script type="text/javascript" id="">
       function getRandomInt(a, b) {
-        a = Math.ceil(a);
-        b = Math.floor(b);
-        return Math.floor(Math.random() * (b - a)) + a;
+        a = Math.ceil(a)
+        b = Math.floor(b)
+        return Math.floor(Math.random() * (b - a)) + a
       }
-      var random = getRandomInt(1, 100);
+      var random = getRandomInt(1, 100)
       document.cookie =
-        50 >= random ? "DriftPlaybook\x3dA" : "DriftPlaybook\x3dB";
+        50 >= random ? 'DriftPlaybook\x3dA' : 'DriftPlaybook\x3dB'
     </script>
     <script type="text/javascript" id="">
-      (function (a, e, f, g, b, c, d) {
-        a.WisePopsObject = b;
+      ;(function (a, e, f, g, b, c, d) {
+        a.WisePopsObject = b
         a[b] =
           a[b] ||
           function () {
-            (a[b].q = a[b].q || []).push(arguments);
-          };
-        a[b].l = 1 * new Date();
-        c = e.createElement(f);
-        d = e.getElementsByTagName(f)[0];
-        c.async = 1;
-        c.src = g;
-        d.parentNode.insertBefore(c, d);
+            ;(a[b].q = a[b].q || []).push(arguments)
+          }
+        a[b].l = 1 * new Date()
+        c = e.createElement(f)
+        d = e.getElementsByTagName(f)[0]
+        c.async = 1
+        c.src = g
+        d.parentNode.insertBefore(c, d)
       })(
         window,
         document,
-        "script",
-        "//loader.wisepops.com/get-loader.js?v\x3d1\x26site\x3djUyaVXW9sw",
-        "wisepops"
-      );
+        'script',
+        '//loader.wisepops.com/get-loader.js?v\x3d1\x26site\x3djUyaVXW9sw',
+        'wisepops'
+      )
     </script>
     <script type="text/javascript" id="">
-      window._6si = window._6si || [];
-      window._6si.push(["enableEventTracking", !0]);
-      window._6si.push(["setToken", "af75821c99fbb73e58863874f02632b4"]);
-      window._6si.push(["setEndpoint", "b.6sc.co"]);
-      (function () {
-        var a = document.createElement("script");
-        a.type = "text/javascript";
-        a.async = !0;
-        a.src = "//j.6sc.co/6si.min.js";
-        var b = document.getElementsByTagName("script")[0];
-        b.parentNode.insertBefore(a, b);
-      })();
+      window._6si = window._6si || []
+      window._6si.push(['enableEventTracking', !0])
+      window._6si.push(['setToken', 'af75821c99fbb73e58863874f02632b4'])
+      window._6si.push(['setEndpoint', 'b.6sc.co'])
+      ;(function () {
+        var a = document.createElement('script')
+        a.type = 'text/javascript'
+        a.async = !0
+        a.src = '//j.6sc.co/6si.min.js'
+        var b = document.getElementsByTagName('script')[0]
+        b.parentNode.insertBefore(a, b)
+      })()
     </script>
     <script
       type="text/javascript"
@@ -2574,25 +2638,25 @@
       src="https://www.influ2.com/tracker?clid=912859da-2b29-489b-866b-bb2897995daa"
     ></script>
     <script type="text/javascript" id="">
-      (function (d, b) {
+      ;(function (d, b) {
         window.ldfdr =
           window.ldfdr ||
           function () {
-            (ldfdr._q = ldfdr._q || []).push([].slice.call(arguments));
-          };
-        (function (a, c) {
-          fs = a.getElementsByTagName(c)[0];
+            ;(ldfdr._q = ldfdr._q || []).push([].slice.call(arguments))
+          }
+        ;(function (a, c) {
+          fs = a.getElementsByTagName(c)[0]
           var e =
-            "https://sc.lfeeder.com/lftracker_v1_" +
+            'https://sc.lfeeder.com/lftracker_v1_' +
             d +
-            (b ? "_" + b : "") +
-            ".js";
-          a = a.createElement(c);
-          a.src = e;
-          a.async = 1;
-          fs.parentNode.insertBefore(a, fs);
-        })(document, "script");
-      })("DzLR5a53V6x7BoQ2");
+            (b ? '_' + b : '') +
+            '.js'
+          a = a.createElement(c)
+          a.src = e
+          a.async = 1
+          fs.parentNode.insertBefore(a, fs)
+        })(document, 'script')
+      })('DzLR5a53V6x7BoQ2')
     </script>
     <iframe
       name="_hjRemoteVarsFrame"
@@ -2660,7 +2724,11 @@
     </div>
     <div
       id="drift-frame-controller"
-      class="drift-conductor-item drift-frame-controller drift-frame-controller-align-right"
+      class="
+        drift-conductor-item
+        drift-frame-controller
+        drift-frame-controller-align-right
+      "
       style="
         right: 24px;
         width: 76px !important;
