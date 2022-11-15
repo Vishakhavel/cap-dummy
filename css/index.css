@@ -2,9 +2,9 @@
   font-family: myFirstFont;
   src: url(../Fonts/Corbel.ttf);
 }
-body {
+/* body {
   font-family: myFirstFont;
-}
+} */
 
 .main {
   width: 100%;
@@ -17,8 +17,28 @@ body {
 
 .banner-image {
   width: 100%;
-  height: 80%;
+  height: 60%;
+  padding-bottom: 30px;
 }
+
+/* .banner-heading {
+  text-align: left;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.banner-text {
+  text-align: left;
+  position: relative;
+  height: auto;
+  width: 300px;
+  top: 150px;
+  left: 200px;
+  font-weight: 800;
+} */
 
 /* tile1 styles */
 
@@ -56,6 +76,18 @@ body {
 .box-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  margin-left: 30px;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.box-wrapper-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   align-items: center;
 }
@@ -68,6 +100,20 @@ body {
   background-color: white;
   border-radius: 20px;
   text-align: left;
+}
+
+.tile2-box-2 {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: left;
+  /* justify-self: center; */
+  /* justify-content: center;
+  align-items: center;
+  margin: auto; */
 }
 
 .box-text {
@@ -123,7 +169,8 @@ body {
   padding: 30px;
   background-color: #f0fcff;
   width: 100%;
-  height: 25%;
+  /* height: 25%; */
+  margin: 20px;
   /* padding: ; */
 }
 
@@ -137,26 +184,36 @@ body {
 }
 
 .tile4-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(5, 1fr); */
+
+  overflow: hidden;
   column-gap: 10px;
-  justify-items: left;
+  justify-items: center;
   align-items: left;
 }
 
 .tile4-box {
-  /* background-color: lightgreen; */
-  width: 100px;
+  margin: auto;
+  float: left;
   height: 100px;
+  position: relative;
+  bottom: 0;
+  background-size: cover;
+  padding: 20px;
+}
+
+.tile4-box-image {
+  /* height: 100px;
+  width: 120px; */
 }
 
 /* tile 5 styles */
 .tile5 {
   padding: 30px;
+  margin-bottom: 20px;
   /* width: 100%;
   height: 25%; */
-  /* padding: ; */
-  /* background-color: green;{ */
 }
 
 .tile5-heading {
@@ -183,7 +240,7 @@ body {
 .tile5-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
+  /* justify-items: center; */
   align-items: center;
 }
 
@@ -265,8 +322,8 @@ body {
 .tile8-container {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  justify-items: left;
-  align-items: left;
+  justify-items: center;
+  align-items: center;
   column-gap: 5px;
 }
 
@@ -290,21 +347,21 @@ body {
   grid-template-columns: repeat(3, 1fr);
   justify-items: left;
   align-items: left;
-  column-gap: 5px;
+  /* column-gap: 5px; */
   padding-bottom: 10px;
   padding-top: 10px;
 }
 
 .tile9-box {
-  width: 200px;
+  width: 400px;
   margin: 10px;
 }
 
 .tile9-box-image {
   padding-top: 10px;
   padding-bottom: 10px;
-  height: 100px;
-  width: 150px;
+  height: 60px;
+  width: 120px;
   justify-content: center;
   align-items: center;
 }
@@ -336,6 +393,16 @@ body {
 .page-footer {
   position: fixed;
 }
+
+#component-footer {
+  position: fixed;
+  bottom: 0;
+}
+
+/* .capillary-font {
+  font-family: myFirstFont;
+  src: url(../Fonts/Corbel.ttf);
+} */
 
 /* .component-header {
   font-family: myFirstFont;
