@@ -2,10 +2,9 @@
   font-family: myFirstFont;
   src: url(../Fonts/Corbel.ttf);
 }
-body {
+/* body {
   font-family: myFirstFont;
-}
-
+} */
 .main {
   width: 100%;
   height: 100vh;
@@ -14,33 +13,44 @@ body {
   /* background-color: hotpink; */
   top: 0px;
 }
-
 .banner-image {
   width: 100%;
-  height: 80%;
+  height: 60%;
+  padding-bottom: 30px;
 }
-
+/* .banner-heading {
+  text-align: left;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.banner-text {
+  text-align: left;
+  position: relative;
+  height: auto;
+  width: 300px;
+  top: 150px;
+  left: 200px;
+  font-weight: 800;
+} */
 /* tile1 styles */
-
 .tile1-heading {
   font-size: 30px;
   color: green;
 }
-
 .tile1-text {
   padding: 30px;
   margin: 30px;
 }
-
 .tile1-image {
   width: 100%;
   display: block;
 }
-
 /* tile2 styles */
-
 .tile2 {
-  background-color: #e2e2e2;
+  background-color: #E2E2E2;
   padding: 30px;
   margin: auto;
 }
@@ -48,18 +58,26 @@ body {
   font-size: 30px;
   color: blue;
 }
-
 .tile2-text {
   padding: 20px;
 }
-
 .box-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  margin-left: 30px;
+  margin-right: auto;
+  padding: 30px;
+}
+.box-wrapper-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   align-items: center;
 }
-
 .tile2-box-3 {
   width: 300px;
   height: 300px;
@@ -69,23 +87,31 @@ body {
   border-radius: 20px;
   text-align: left;
 }
-
+.tile2-box-2 {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: left;
+  /* justify-self: center; */
+  /* justify-content: center;
+  align-items: center;
+  margin: auto; */
+}
 .box-text {
   text-align: left;
 }
-
 .green-text {
   color: green;
 }
-
 .blue-text {
   color: blue;
 }
-
 .tile3 {
   padding: 30px;
 }
-
 .tile-3-heading {
   text-align: left;
   font-size: 50px;
@@ -97,14 +123,12 @@ body {
   text-align: left;
   font-size: 30px;
 }
-
 .tile3-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
 }
-
 .tile3-box {
   width: 300px;
   height: 300px;
@@ -114,60 +138,59 @@ body {
   border-radius: 20px;
   text-align: left;
 }
-
 .tile3-text {
   text-align: left;
 }
-
 .tile4 {
   padding: 30px;
-  background-color: #f0fcff;
+  background-color: #F0FCFF;
   width: 100%;
-  height: 25%;
+  /* height: 25%; */
+  margin: 20px;
   /* padding: ; */
 }
-
 .tile4-heading {
   text-align: left;
   font-size: 30px;
 }
-
 .tile4-content {
   text-align: left;
 }
-
 .tile4-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(5, 1fr); */
+  overflow: hidden;
   column-gap: 10px;
-  justify-items: left;
+  justify-items: center;
   align-items: left;
 }
-
 .tile4-box {
-  /* background-color: lightgreen; */
-  width: 100px;
+  margin: auto;
+  float: left;
   height: 100px;
+  position: relative;
+  bottom: 0;
+  background-size: cover;
+  padding: 20px;
 }
-
+.tile4-box-image {
+  /* height: 100px;
+  width: 120px; */
+}
 /* tile 5 styles */
 .tile5 {
   padding: 30px;
+  margin-bottom: 20px;
   /* width: 100%;
   height: 25%; */
-  /* padding: ; */
-  /* background-color: green;{ */
 }
-
 .tile5-heading {
   font-size: 30px;
   text-align: left;
 }
-
 .tile5-text {
   text-align: left;
 }
-
 .tile-5-heading {
   text-align: left;
   font-size: 50px;
@@ -179,14 +202,12 @@ body {
   text-align: left;
   font-size: 30px;
 }
-
 .tile5-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
+  /* justify-items: center; */
   align-items: center;
 }
-
 .tile5-box {
   width: 300px;
   height: 300px;
@@ -196,29 +217,24 @@ body {
   border-radius: 20px;
   text-align: left;
 }
-
 .tile6 {
   padding: 30px;
   width: 100%;
-  background-color: #f9fff9;
+  background-color: #F9FFF9;
 }
-
 .tile6-heading {
   font-size: 30px;
   text-align: left;
 }
-
 .tile6-text {
   text-align: left;
 }
-
 .tile6-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
   align-items: center;
 }
-
 .tile7 {
   padding: 30px;
   width: 100%;
@@ -230,14 +246,12 @@ body {
   text-align: left;
   font-size: 30px;
 }
-
 .tile7-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: left;
   align-items: left;
 }
-
 .tile7-box {
   /* background-color: grey; */
   width: 300px;
@@ -247,79 +261,66 @@ body {
   border-radius: 20px;
   text-align: left;
 }
-
 .tile7-box-heading {
   font-weight: 700;
 }
-
 .tile8 {
   width: 100%;
   text-align: left;
   padding: 30px;
 }
-
 .tile8-heading {
   font-size: 30px;
 }
-
 .tile8-container {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  justify-items: left;
-  align-items: left;
+  justify-items: center;
+  align-items: center;
   column-gap: 5px;
 }
-
 .tile8-box {
   /* background-color: yellow; */
   width: fit-content;
   /* padding: 20px; */
 }
-
 .tile9 {
   text-align: left;
   padding: 30px;
-  background-color: #f0fcff;
+  background-color: #F0FCFF;
 }
 .tile9-heading {
   font-size: 30px;
 }
-
 .tile9-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: left;
   align-items: left;
-  column-gap: 5px;
+  /* column-gap: 5px; */
   padding-bottom: 10px;
   padding-top: 10px;
 }
-
 .tile9-box {
-  width: 200px;
+  width: 400px;
   margin: 10px;
 }
-
 .tile9-box-image {
   padding-top: 10px;
   padding-bottom: 10px;
-  height: 100px;
-  width: 150px;
+  height: 60px;
+  width: 120px;
   justify-content: center;
   align-items: center;
 }
-
 .tile10 {
   text-align: left;
-
   padding: 30px;
 }
-
 .tile10-heading {
   text-align: left;
   font-size: 30px;
 }
-
 .tile10-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -329,14 +330,20 @@ body {
   padding-bottom: 10px;
   padding-top: 10px;
 }
-
 .tile10-box {
 }
 /* broke the footer, but okay for now. */
 .page-footer {
   position: fixed;
 }
-
+#component-footer {
+  position: fixed;
+  bottom: 0;
+}
+/* .capillary-font {
+  font-family: myFirstFont;
+  src: url(../Fonts/Corbel.ttf);
+} */
 /* .component-header {
   font-family: myFirstFont;
   src: url(../Fonts/Corbel.ttf);
